@@ -21,3 +21,8 @@ Route::get('/', function () {
 Route::get('forge', function () {
     return "Hello forge, workign fine";
 });
+
+
+Route::get('adapt', function () {
+    return "Adapt is the way";
+});
