@@ -36,3 +36,12 @@ Route::get('foo', function () {
 Route::get('dance', function () {
     return "cha cha cha cha cha ";
 });
+
+
+Route::get('walk', function () {
+    return "walk walk walk walk walk ";
+});
+
+Route::get('run', function () {
+    return "run run run run run ";
+});
